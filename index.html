@@ -2,406 +2,973 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saikiran | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Saikiran Valsa | Java Full Stack Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <!-- Navbar -->
+
+    <!-- ================= NAVBAR ================= -->
+
     <nav class="navbar">
-        <div class="logo">SAIKIRAN PORTFOLIO</div>
-        <input type="checkbox" id="menu-toggle" hidden>
-        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+                <span>&lt;</span>Saikiran<span>/&gt;</span>
+            </a>
+
+            <input type="checkbox" id="menu-toggle">
+
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
     </nav>
 
-    <!-- Hero Section -->
-    <div id="particles-js">
-        <section class="hero">
-            <div class="hero-left">
-                <p class="tagline"></p>
-                <h1>Hi, I am <span>Saikiran Valsa</span> <br>I Excited to begin my journey as a Frontend Developer.</h1>
-                <div class="buttons">
-                    <a href="#" class="btn primary">Hire me</a>
-                    <a href="Sai_fulstack_resume.pdf" class="btn outline" download>Download CV</a>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-bg"></div>
+
+        <div class="hero-container">
+
+            <div class="hero-content">
+
+                <div class="available">
+                    <span></span>
+                    Open to opportunities
                 </div>
+
+                <p class="hero-small">
+                    Hello, I'm
+                </p>
+
+                <h1>
+                    Saikiran
+                    <span>Valsa</span>
+                </h1>
+
+                <h2>
+                    Java Full Stack Developer
+                </h2>
+
+                <p class="hero-description">
+                    I build responsive and scalable web applications using
+                    Java, Spring Boot, React, JavaScript and modern web
+                    technologies.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        View My Work
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="Sai_fulstack_resume.pdf"
+                        class="btn secondary-btn"
+                        download>
+                        Download Resume
+                        <i class="fas fa-download"></i>
+                    </a>
+
+                </div>
+
+                <div class="hero-socials">
+
+                    <a href="https://github.com/Saikiranvalsa"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="http://www.linkedin.com/in/saikiran-valsa-2a891a288"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="mailto:valsasaikiran26@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                </div>
+
             </div>
-            <div class="hero-right">
-                <div class="bg-skew"></div>
-                <img src="passphoto.png" alt="Saikiran" />
-            </div>
-        </section>
-    </div>
 
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
+            <div class="hero-image-container">
+
+                <div class="code-card">
+
+                    <div class="code-header">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <div class="code-content">
+
+                        <p>
+                            <span class="purple">const</span>
+                            developer = {
+                        </p>
+
+                        <p class="indent">
+                            name:
+                            <span class="green">
+                                "Saikiran"
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            role:
+                            <span class="green">
+                                "Full Stack Developer"
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            backend:
+                            <span class="green">
+                                "Spring Boot"
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            frontend:
+                            <span class="green">
+                                "React"
+                            </span>
+                        </p>
+
+                        <p>};</p>
+
+                    </div>
+
+                </div>
+
+                <div class="profile-circle">
+
+                    <img src="passphoto.png"
+                        alt="Saikiran Valsa">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section about-section">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <span>01</span>
+
+                <h2>About Me</h2>
+
+                <div></div>
+
+            </div>
+
             <div class="about-grid">
-                <div class="about-img">
-                    <img src="images\WhatsApp Image 2025-08-26 at 12.28.15_d8f6302f.jpg" alt="Profile Picture">
+
+                <div class="about-image">
+
+                    <div class="image-border"></div>
+
+                    <img src="images/WhatsApp Image 2025-08-26 at 12.28.15_d8f6302f.jpg"
+                        alt="Saikiran">
+
                 </div>
+
+
                 <div class="about-content">
-                    <h5 class="section-subtitle">MY INTRODUCTION</h5>
-                    <h2>About Me</h2>
-                    <p>
-                        I'm Saikiran Valsa,
-                        I enjoy building responsive and user-friendly websites.
-                        Skilled in HTML, CSS,Java,React and JavaScript with hands-on project experience.
-                        Created a Drum kite site for playing the music.
-                        I'm passionate about clean Front-end developer.
-                        Looking to grow in a tech-driven team and learn more every day.
+
+                    <p class="about-intro">
+                        I'm a final-year Computer Science and Engineering
+                        student passionate about building modern web
+                        applications and solving real-world problems through
+                        technology.
                     </p>
 
-                    <p><em>“Building websites that look beautiful and work seamlessly.”</em></p>
+                    <p>
+                        I work with Java, Spring Boot, React, JavaScript,
+                        MySQL and other full-stack technologies. I enjoy
+                        developing applications that combine clean user
+                        interfaces with reliable backend systems.
+                    </p>
+
+                    <p>
+                        My goal is to grow as a Java Full Stack Developer
+                        and contribute to a technology-driven team where
+                        I can continuously learn and build impactful
+                        applications.
+                    </p>
 
 
-                    <div class="about-details">
-                        <p><strong>Name:</strong> Saikiran Valsa</p>
-                        <p><strong>Date of birth:</strong> October 17, 2003</p>
-                        <p><strong>Address:</strong> Eturunagaram, Telangana, India</p>
-                        <p><strong>Zip code:</strong> 506165</p>
-                        <p><strong>Email:</strong> valsasaikiran26@gmail.com</p>
-                        <p><strong>Phone:</strong> +91-9121630735</p>
+                    <div class="about-info">
+
+                        <div>
+                            <span>Name</span>
+                            <strong>Saikiran Valsa</strong>
+                        </div>
+
+                        <div>
+                            <span>Degree</span>
+                            <strong>B.Tech CSE</strong>
+                        </div>
+
+                        <div>
+                            <span>Location</span>
+                            <strong>Telangana, India</strong>
+                        </div>
+
+                        <div>
+                            <span>Email</span>
+                            <strong>valsasaikiran26@gmail.com</strong>
+                        </div>
+
                     </div>
-                    <div class="interests">
-                        <span><i class="fas fa-music"></i> Music</span>
-                        <span><i class="fas fa-plane"></i> Travel</span>
-                        <span><i class="fas fa-film"></i> Movie</span>
-                        <span><i class="fas fa-futbol"></i> Sports</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <span>02</span>
+
+                <h2>Technical Skills</h2>
+
+                <div></div>
+
+            </div>
+
+            <p class="section-description">
+                Technologies and tools I use to build full-stack applications.
+            </p>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <img src="images/java.png" alt="Java">
+                    <h3>Java</h3>
+                    <p>Core Java & OOP</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/react.png" alt="React">
+                    <h3>React</h3>
+                    <p>Frontend Development</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/javascript.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>Web Development</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/html.png" alt="HTML">
+                    <h3>HTML</h3>
+                    <p>Semantic Markup</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/css.png" alt="CSS">
+                    <h3>CSS</h3>
+                    <p>Responsive Design</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/bootstrap.png" alt="Bootstrap">
+                    <h3>Bootstrap</h3>
+                    <p>UI Development</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/node js.png" alt="Node JS">
+                    <h3>Node.js</h3>
+                    <p>Backend Basics</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/github.png" alt="GitHub">
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section projects-section">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <span>03</span>
+
+                <h2>Featured Projects</h2>
+
+                <div></div>
+
+            </div>
+
+            <p class="section-description">
+                Some of the projects I've built while learning and applying
+                full-stack development.
+            </p>
+
+
+            <div class="projects-grid">
+
+
+                <!-- LINKFORGE -->
+
+                <article class="project-card featured-project">
+
+                    <div class="project-image">
+
+                        <img src="images/Screenshot 2026-08-18 141759.png"
+                            alt="LinkForge">
+
+                        <div class="project-overlay">
+
+                            <a href="https://linkforge2026.netlify.app/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+
+                        </div>
+
                     </div>
-                </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            PROJECT 01
+                        </span>
+
+                        <h3>LinkForge</h3>
+
+                        <p>
+                            A full-stack URL shortening and analytics
+                            platform with secure authentication,
+                            URL management and click tracking.
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>React</span>
+                            <span>JWT</span>
+                            <span>MySQL</span>
+
+                        </div>
+
+                        <div class="project-buttons">
+
+                            <a href="https://linkforge2026.netlify.app/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Live Demo
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                            <a href="YOUR_LINKFORGE_GITHUB_URL"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                GitHub
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DRUM KIT -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <img src="images/Screenshot 2025-08-26 121258.png"
+                            alt="Drum Kit">
+
+                        <div class="project-overlay">
+
+                            <a href="https://saikiranvalsa.github.io/Drum-Kit/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            PROJECT 02
+                        </span>
+
+                        <h3>Drum Kit</h3>
+
+                        <p>
+                            An interactive browser-based drum application
+                            where users can play different sounds using
+                            keyboard keys and mouse clicks.
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <div class="project-buttons">
+
+                            <a href="https://saikiranvalsa.github.io/Drum-Kit/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Live Demo
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                            <a href="https://github.com/Saikiranvalsa/Drum-Kit"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                GitHub
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PORTFOLIO -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <img src="images/Screenshot 2025-08-26 122027.png"
+                            alt="Portfolio Website">
+
+                        <div class="project-overlay">
+
+                            <a href="https://saikiranvalsa.github.io/portfolio/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            PROJECT 03
+                        </span>
+
+                        <h3>Portfolio Website</h3>
+
+                        <p>
+                            A responsive personal portfolio designed to
+                            showcase my skills, projects and experience.
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <div class="project-buttons">
+
+                            <a href="https://saikiranvalsa.github.io/portfolio/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Live Demo
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                            <a href="https://github.com/Saikiranvalsa/portfolio"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                GitHub
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
             </div>
+
         </div>
+
     </section>
 
-    <section id="skills" class="skills-section">
-        <h2>My Skills</h2>
-        <div class="skills-slider">
-            <div class="skills-track">
-                <!-- Skill Cards x2 for seamless loop -->
-                <!-- 1st Set -->
-                 <div class="skill-card">
-                    <img src="images\python.jpeg" class="skill-icon" alt="Java" />
-                    <h4>Python</h4>
-                    
-                </div>
-                <div class="skill-card">
-                    <img src="images\html.png" class="skill-icon" alt="HTML" />
-                    <h4>HTML</h4>
-                 
-                </div>
-                <div class="skill-card">
-                    <img src="images\css.png" class="skill-icon" alt="CSS" />
-                    <h4>CSS</h4>
-                
-                </div>
-                <div class="skill-card">
-                    <img src="images\javascript.png" class="skill-icon" alt="JavaScript" />
-                    <h4>JavaScript</h4>
-                    
-                </div>
-                <div class="skill-card">
-                    <img src="images\bootstrap.png" class="skill-icon" alt="Bootstrap" />
-                    <h4>Bootstrap</h4>
-                    
-                </div>
-                <div class="skill-card">
-                    <img src="images\react.png" class="skill-icon" alt="React" />
-                    <h4>React</h4>
-                    
-                </div>
-                
-                <div class="skill-card">
-                    <img src="images\java.png" class="skill-icon" alt="Java" />
-                    <h4>Java</h4>
-                    
-                </div>
-                <div class="skill-card">
-                    <img src="images\node js.png" class="skill-icon" alt="Node JS" />
-                    <h4>Node JS</h4>
-                 
-                </div>
-                <div class="skill-card">
-                    <img src="images\github.png" class="skill-icon" alt="GitHub" />
-                    <h4>GitHub</h4>
-                    
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <span>04</span>
+
+                <h2>Let's Connect</h2>
+
+                <div></div>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-info">
+
+                    <h3>
+                        Have a project or opportunity?
+                    </h3>
+
+                    <p>
+                        I'm currently looking for opportunities where I can
+                        apply my Java Full Stack development skills, learn
+                        from experienced developers and contribute to
+                        meaningful projects.
+                    </p>
+
+                    <div class="contact-items">
+
+                        <a href="mailto:valsasaikiran26@gmail.com">
+
+                            <i class="fas fa-envelope"></i>
+
+                            <div>
+                                <span>Email</span>
+                                <strong>
+                                    valsasaikiran26@gmail.com
+                                </strong>
+                            </div>
+
+                        </a>
+
+
+                        <a href="tel:+919121630735">
+
+                            <i class="fas fa-phone"></i>
+
+                            <div>
+                                <span>Phone</span>
+                                <strong>
+                                    +91 91216 30735
+                                </strong>
+                            </div>
+
+                        </a>
+
+
+                        <div>
+
+                            <i class="fas fa-location-dot"></i>
+
+                            <div>
+                                <span>Location</span>
+                                <strong>
+                                    Telangana, India
+                                </strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <!-- Duplicate set -->
-                 <div class="skill-card">
-                    <img src="images\python.jpeg" class="skill-icon" alt="Java" />
-                    <h4>Python</h4>
-                    
-                </div>
-                <div class="skill-card">
-                    <img src="images\html.png" class="skill-icon" alt="HTML" />
-                    <h4>HTML</h4>
-                 
-                </div>
-                <div class="skill-card">
-                    <img src="images\css.png" class="skill-icon" alt="CSS" />
-                    <h4>CSS</h4>
-                
-                </div>
-                <div class="skill-card">
-                    <img src="images\javascript.png" class="skill-icon" alt="JavaScript" />
-                    <h4>JavaScript</h4>
-                    
-                </div>
-                <div class="skill-card">
-                    <img src="images\bootstrap.png" class="skill-icon" alt="Bootstrap" />
-                    <h4>Bootstrap</h4>
-                    
-                </div>
-                <div class="skill-card">
-                    <img src="images\react.png" class="skill-icon" alt="React" />
-                    <h4>React</h4>
-                    
-                </div>
-                
-                <div class="skill-card">
-                    <img src="images\java.png" class="skill-icon" alt="Java" />
-                    <h4>Java</h4>
-                    
-                </div>
-                <div class="skill-card">
-                    <img src="images\node js.png" class="skill-icon" alt="Node JS" />
-                    <h4>Node JS</h4>
-                 
-                </div>
-                <div class="skill-card">
-                    <img src="images\github.png" class="skill-icon" alt="GitHub" />
-                    <h4>GitHub</h4>
-                    
-                </div>
-                
+
+                <form class="contact-form"
+                    onsubmit="handleFormSubmit(event)">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Your Name
+                            </label>
+
+                            <input type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Your Email
+                            </label>
+
+                            <input type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <div class="contact-buttons">
+
+                        <button type="button"
+                            class="btn whatsapp-btn"
+                            onclick="sendWhatsApp()">
+
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp
+
+                        </button>
+
+
+                        <button type="submit"
+                            class="btn primary-btn">
+
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+
+                        </button>
+
+                    </div>
+
+                </form>
+
             </div>
+
         </div>
+
     </section>
 
 
-    <!-- Project card -->
+    <!-- ================= FOOTER ================= -->
 
-  <!-- Projects Section -->
-<section id="projects" class="projects-section">
+    <footer>
 
-    <h2 class="section-title">My Projects</h2>
-
-    <div class="projects-grid">
-
-        <!-- LinkForge -->
-        <div class="project-card">
-            <img
-                src="images/Screenshot 2026-08-18 141759.png"
-                alt="LinkForge URL Shortener Project"
-            />
-
-            <div class="project-info">
-                <h3>LinkForge</h3>
-
-                <p>
-                    Full-stack URL shortening and analytics application built
-                    using React, Spring Boot, Spring Security, JWT and MySQL.
-                </p>
-
-                <div class="project-links">
-                    <a
-                        href="https://linkforge2026.netlify.app/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Live Demo
-                    </a>
-
-                    <a
-                        href="YOUR_LINKFORGE_GITHUB_URL"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        GitHub
-                    </a>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Drum Kit -->
-        <div class="project-card">
-            <img
-                src="images/Screenshot 2025-08-26 121258.png"
-                alt="Drum Kit JavaScript Project"
-            />
-
-            <div class="project-info">
-                <h3>Drum Kit</h3>
-
-                <p>
-                    Interactive drum application built using HTML, CSS and
-                    JavaScript with keyboard and click-based sound controls.
-                </p>
-
-                <div class="project-links">
-                    <a
-                        href="https://saikiranvalsa.github.io/Drum-Kit/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Live Demo
-                    </a>
-
-                    <a
-                        href="https://github.com/Saikiranvalsa/Drum-Kit"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        GitHub
-                    </a>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Portfolio -->
-        <div class="project-card">
-            <img
-                src="images/Screenshot 2025-08-26 122027.png"
-                alt="Personal Portfolio Website"
-            />
-
-            <div class="project-info">
-                <h3>Portfolio Website</h3>
-
-                <p>
-                    Responsive personal portfolio website showcasing my
-                    projects, technical skills and development experience.
-                </p>
-
-                <div class="project-links">
-                    <a
-                        href="https://saikiranvalsa.github.io/portfolio/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Live Demo
-                    </a>
-
-                    <a
-                        href="https://github.com/Saikiranvalsa/portfolio"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        GitHub
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-    <!-- contact -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-
-            <form class="contact-form" onsubmit="handleFormSubmit(event)">
-                <div class="form-group">
-                    <input type="text" id="name" name="name" placeholder="Your Name" required />
-                </div>
-                <div class="form-group">
-                    <input type="email" id="email" name="email" placeholder="Your Email" required />
-                </div>
-                <div class="form-group">
-                    <textarea rows="5" id="message" name="message" placeholder="Your Message" required></textarea>
-                </div>
-                <div class="button-group">
-                    <button type="button" class="btn primary" onclick="sendWhatsApp()">Send Message</button>
-                    <button type="submit" class="btn outline">Send Email</button>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-
-    <footer class="footer">
         <div class="footer-container">
-            <h3>SAIKIRAN</h3>
-            <p>Crafting frontend experiences with code & creativity ✨</p>
-            <div class="social-icons">
-                <a href="https://github.com/Saikiranvalsa" target="_blank" title="GitHub Profile">
-                    <i class="fab fa-github"></i>
+
+            <div>
+
+                <a href="#" class="logo">
+                    <span>&lt;</span>Saikiran<span>/&gt;</span>
                 </a>
 
-                <a href="http://www.linkedin.com/in/saikiran-valsa-2a891a288" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/sai_kiran_valsa?igsh=dWZkNnE4c3R1NGlk" target="_blank"><i class="fab fa-instagram"></i></a>
+                <p>
+                    Java Full Stack Developer
+                </p>
 
             </div>
-            <p class="copyright">© 2025 Saikiran. All rights reserved.</p>
+
+
+            <div class="footer-socials">
+
+                <a href="https://github.com/Saikiranvalsa"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="http://www.linkedin.com/in/saikiran-valsa-2a891a288"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <i class="fab fa-linkedin-in"></i>
+
+                </a>
+
+                <a href="mailto:valsasaikiran26@gmail.com">
+
+                    <i class="fas fa-envelope"></i>
+
+                </a>
+
+            </div>
+
         </div>
+
+
+        <div class="copyright">
+
+            © 2026 Saikiran Valsa. All rights reserved.
+
+        </div>
+
     </footer>
 
-    </section>
 
-
-
-
-
-
+    <!-- ================= SCROLL REVEAL ================= -->
 
     <script src="https://unpkg.com/scrollreveal"></script>
+
     <script>
-        ScrollReveal().reveal('.hero-left', { origin: 'left', distance: '50px', duration: 1000, delay: 300 });
-        ScrollReveal().reveal('.hero-right', { origin: 'right', distance: '50px', duration: 1000, delay: 500 });
-        ScrollReveal().reveal('.navbar', { origin: 'top', distance: '20px', duration: 800, delay: 200 });
-        ScrollReveal().reveal('.about-img', { origin: 'left', distance: '50px', duration: 1000, delay: 200 });
-        ScrollReveal().reveal('.about-content', { origin: 'right', distance: '50px', duration: 1000, delay: 300 });
+
+        ScrollReveal().reveal(
+            '.hero-content',
+            {
+                origin: 'left',
+                distance: '60px',
+                duration: 1000,
+                delay: 200
+            }
+        );
+
+        ScrollReveal().reveal(
+            '.hero-image-container',
+            {
+                origin: 'right',
+                distance: '60px',
+                duration: 1000,
+                delay: 400
+            }
+        );
+
+        ScrollReveal().reveal(
+            '.section-heading',
+            {
+                origin: 'bottom',
+                distance: '30px',
+                duration: 800
+            }
+        );
+
+        ScrollReveal().reveal(
+            '.about-image',
+            {
+                origin: 'left',
+                distance: '50px',
+                duration: 900
+            }
+        );
+
+        ScrollReveal().reveal(
+            '.about-content',
+            {
+                origin: 'right',
+                distance: '50px',
+                duration: 900
+            }
+        );
+
+        ScrollReveal().reveal(
+            '.skill-card',
+            {
+                interval: 100,
+                distance: '30px',
+                duration: 700
+            }
+        );
+
+        ScrollReveal().reveal(
+            '.project-card',
+            {
+                interval: 150,
+                distance: '40px',
+                duration: 800
+            }
+        );
+
+
+        // WhatsApp
 
         function sendWhatsApp() {
-            const name = document.getElementById("name").value.trim();
-            const email = document.getElementById("email").value.trim();
-            const message = document.getElementById("message").value.trim();
 
-            const text = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
-            const phone = "919121630735"; // ← Replace with your number
-            const link = `https://wa.me/${phone}?text=${text}`;
+            const name =
+                document.getElementById("name").value.trim();
+
+            const email =
+                document.getElementById("email").value.trim();
+
+            const message =
+                document.getElementById("message").value.trim();
+
+            if (!name || !email || !message) {
+
+                alert("Please fill all fields.");
+
+                return;
+            }
+
+            const text =
+                `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+
+            const phone = "919121630735";
+
+            const link =
+                `https://wa.me/${phone}?text=${text}`;
 
             window.open(link, "_blank");
+
         }
+
+
+        // Email
 
         function handleFormSubmit(event) {
+
             event.preventDefault();
+
             const form = event.target;
 
-            // Replace this with your FormSubmit endpoint
-            const formAction = "https://formsubmit.co/valsasaikiran26@gmail.com";
+            const formAction =
+                "https://formsubmit.co/valsasaikiran26@gmail.com";
 
-            const formData = new FormData(form);
+            const formData =
+                new FormData(form);
+
             fetch(formAction, {
+
                 method: "POST",
-                body: formData,
+
+                body: formData
+
             })
-                .then(() => {
-                    alert("Email sent successfully!");
-                    form.reset();
-                })
-                .catch(() => {
-                    alert("Failed to send email.");
-                });
+
+            .then(() => {
+
+                alert("Email sent successfully!");
+
+                form.reset();
+
+            })
+
+            .catch(() => {
+
+                alert("Failed to send email.");
+
+            });
+
         }
+
     </script>
+
 </body>
 
 </html>
